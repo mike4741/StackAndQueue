@@ -29,6 +29,7 @@ namespace StackAndQueue
 
                 if (s.Count == 0)
                 {
+                    
                     nge[i] = -1;
                 }
                 else

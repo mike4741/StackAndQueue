@@ -34,7 +34,7 @@ namespace StackAndQueue
                     {
                         s2.Push(s1.Pop());
                     }
-                    // val=  s2.Pop();
+                   
                 }
             }
             Console.WriteLine($" item in the queue{s2.Pop()}");
@@ -48,21 +48,3 @@ namespace StackAndQueue
 
 
 
-//public void inqueue(int item)
-//{
-//    while (s1.Count > 0)
-//    {
-//        s2.Push(s1.Pop());
-//    }
-//    s1.Push(item);
-//    while (s2.Count > 0)
-//    {
-//        s1.Push(s2.Pop());
-//    }
-//}
-//public int dequeue()
-//{
-//    Console.WriteLine($"{s1.Pop()}");
-
-//    return s1.Pop();
-//}
